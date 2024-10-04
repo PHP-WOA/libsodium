@@ -7,8 +7,8 @@
     <BuildRoot>$(ProjectDir)..\..\</BuildRoot>
     <RepoRoot>$(ProjectDir)..\..\..\..\</RepoRoot>
     <SourceRoot>$(ProjectDir)..\..\..\..\..\</SourceRoot>    
-    <OutDir>$(ProjectDir)..\..\..\..\bin\$(PlatformName)\$(DebugOrRelease)\$(PlatformToolset)\$(DefaultLinkage)\</OutDir>
-    <IntDir>$(ProjectDir)..\..\..\..\obj\$(TargetName)\$(PlatformName)\$(DebugOrRelease)\$(PlatformToolset)\$(DefaultLinkage)\</IntDir>
+    <OutDir>$(ProjectDir)..\..\..\..\bin\$(PlatformTarget)\$(DebugOrRelease)\$(DefaultLinkage)\</OutDir>
+    <IntDir>$(ProjectDir)..\..\..\..\obj\$(TargetName)\$(PlatformTarget)\$(DebugOrRelease)\$(DefaultLinkage)\</IntDir>
     <TargetDir>$(OutDir)</TargetDir>
     <TargetName>$(TargetName)</TargetName>
     <TargetPath>$(TargetDir)$(TargetName)$(TargetExt)</TargetPath>

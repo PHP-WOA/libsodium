@@ -9,7 +9,7 @@
   
   <ItemDefinitionGroup>
     <ClCompile>
-      <PreprocessorDefinitions>_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
 
